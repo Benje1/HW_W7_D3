@@ -15,7 +15,7 @@ const Top20Container = () => {
     }
 
     return(<>
-    <Top20List top20s={Top20}/>
+    {Top20.length ? <Top20List top20s={Top20}/> : null}
     </>)
 
 }

@@ -1,11 +1,11 @@
 import React from "react";
 
 
-const Top20Item = ({Top20Item}) => {
-
+const Top20Item = ({song}) => {
+console.log(song);
 
     return (<>
-    <li>{Top20Item} {console.dir(Top20Item)}</li>
+    <li>{song.title.label}</li>
     </>)
 
 }
